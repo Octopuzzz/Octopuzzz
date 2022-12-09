@@ -1,7 +1,7 @@
 - Hi👋, My Name Reagent
 - Computer Science at Binus
 - 🌍 I'm based in Indonesia 🏝️
-- 👀 I’m interested in WebDev and Web 3.0
+- 👀 I’m interested in WebDev and Game Development
 - 
 
 <!---
