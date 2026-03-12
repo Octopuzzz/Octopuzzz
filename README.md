@@ -1,73 +1,30 @@
-<h1 align="center">Hi, I'm Aster 👋</h1>
+## Reagent Sandra
 
-<p align="center">
-  <b>Platform Engineer · Kafka & Streaming Systems · On-Premise Infrastructure</b>
-</p>
+Software Developer based in Jakarta. CS graduate from Bina Nusantara University (3.59 GPA).
 
-<p align="center">
-  <a href="https://github.com/Octopuzzz"><img src="https://img.shields.io/github/followers/Octopuzzz?label=Follow&style=social" /></a>
-</p>
+Currently building ETL data streaming and transformation with **Confluent** for Bank Indonesia. Previously worked on microservices for BNI core system integration and a Super Apps platform with Next.js + Google Maps API.
 
 ---
 
-## 🚀 Featured Project
-
-<table>
-<tr>
-<td width="60%">
-
-### [⚡ Confluent Tiered Storage — Interactive Docs](https://github.com/Octopuzzz/teired-storage-confluent)
-
-Dokumentasi interaktif arsitektur **Tiered Storage** untuk Confluent Platform on-premise dengan MinIO sebagai cold-tier object store.
-
-**Highlights:**
-- 🎯 Animated flow diagram — draggable nodes, live arrows & packet animation
-- ❓ 24 FAQ mendalam tentang segment lifecycle, failure recovery & encryption
-- 📋 Architecture breakdown & konfigurasi on-premise lengkap
-- 📱 Fully responsive dengan hamburger nav
-
-**Stack:** `Confluent Platform` · `Apache Kafka` · `MinIO` · `KIP-405`
-
-</td>
-<td width="40%" align="center">
+**Tech I work with**
 
 ```
-Producer ──→ Leader Replica
-                 │   └──→ Follower 1
-                 │   └──→ Follower 2
-                 ↓ (upload)
-           Object Store (MinIO)
-                 ↑
-         Historical Consumer
+Backend      Go (Gin, Gorm) · Spring Boot · Express.js · Node.js
+Frontend     Next.js · React.js · Vue.js · TypeScript · Flutter
+Infra        Docker · Kubernetes · Jenkins · GCP · Nginx
+Data         Confluent · Kafka · ElasticSearch · MongoDB
 ```
 
-</td>
-</tr>
-</table>
+---
+
+**Featured**
+
+[`⚡ Confluent Tiered Storage — Interactive Docs`](https://github.com/Octopuzzz/teired-storage-confluent)  
+Interactive visualization of Kafka tiered storage architecture with animated flow diagrams, draggable nodes, and detailed FAQ — built as technical reference for on-premise Confluent + MinIO deployments.
 
 ---
 
-## 🛠️ Skills & Tools
+**Certifications**  
+IBM Certified App Connect Enterprise · MongoDB SI Associate · Kominfo Bootcamp (Go · React · Ruby on Rails)
 
-![Kafka](https://img.shields.io/badge/Apache%20Kafka-231F20?style=flat&logo=apachekafka&logoColor=white)
-![Confluent](https://img.shields.io/badge/Confluent-0040FF?style=flat&logo=confluent&logoColor=white)
-![MinIO](https://img.shields.io/badge/MinIO-C72E49?style=flat&logo=minio&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
-
----
-
-## 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Octopuzzz&show_icons=true&theme=tokyonight&hide_border=true" height="140" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Octopuzzz&layout=compact&theme=tokyonight&hide_border=true" height="140" />
-</p>
-
----
-
-<p align="center">
-  <i>"Simplify storage. Don't compromise latency."</i>
-</p>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-reagent--sandra-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/reagent-sandra-7305b6169)
