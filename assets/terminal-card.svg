@@ -1,0 +1,184 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 540" width="900" height="540"
+     role="img" aria-label="Terminal dossier for Reagent Sandra, software developer, Jakarta">
+  <title>Octopuzzz/README.md — system dossier</title>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0.6" y2="1">
+      <stop offset="0%" stop-color="#05060d"/>
+      <stop offset="100%" stop-color="#0a0e1a"/>
+    </linearGradient>
+
+    <!-- userSpaceOnUse so one wash spans the whole portrait, not each row -->
+    <linearGradient id="scanTone" gradientUnits="userSpaceOnUse"
+                    x1="0" y1="104" x2="0" y2="377">
+      <stop offset="0%" stop-color="#7dd3fc"/>
+      <stop offset="55%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#22d3ee"/>
+    </linearGradient>
+
+    <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#67e8f9" stop-opacity="0.38"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
+    </linearGradient>
+
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3.2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softglow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="1.4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <clipPath id="artclip">
+      <rect x="36" y="92" width="290" height="291"/>
+    </clipPath>
+  </defs>
+
+  <style>
+    text {
+      font-family: "JetBrains Mono", "SFMono-Regular", "SF Mono", Menlo,
+                   Consolas, "Liberation Mono", "Courier New", monospace;
+      dominant-baseline: middle;
+    }
+    .chrome { font-size: 11px; fill: #64748b; letter-spacing: 0.4px; }
+    .panel  { font-size: 9px;  fill: #22d3ee; letter-spacing: 2.2px; opacity: 0.75; }
+    .handle { font-size: 18px; fill: #22d3ee; font-weight: 700; letter-spacing: 1px; }
+    .art    { font-size: 5.15px; fill: url(#scanTone); white-space: pre; }
+    .key    { font-size: 10px; fill: #7dd3fc; }
+    .dots   { font-size: 10px; fill: #1e3a5f; }
+    .val    { font-size: 10px; fill: #e2e8f0; }
+    .mark   { font-size: 10px; fill: #fbbf24; font-weight: 700; }
+    .grp    { font-size: 10px; fill: #fbbf24; letter-spacing: 1.4px; }
+    .note   { font-size: 10px; fill: #94a3b8; }
+
+    #frame  { animation: pulse 5s ease-in-out infinite; }
+    #beam   { animation: sweep 4.5s linear infinite; }
+    #cursor { animation: blink 1s steps(1, end) infinite; }
+
+    @keyframes pulse { 0%, 100% { opacity: 0.85; } 50% { opacity: 1; } }
+    @keyframes sweep { 0% { transform: translateY(0px); }
+                        100% { transform: translateY(273px); } }
+    @keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
+
+    @media (prefers-reduced-motion: reduce) {
+      #frame, #beam, #cursor { animation: none; }
+      #beam { opacity: 0; }
+    }
+  </style>
+
+  <rect width="900" height="540" rx="14" fill="url(#bg)"/>
+
+  <g id="frame" filter="url(#glow)">
+    <rect x="12" y="12" width="876" height="516" rx="12"
+          fill="none" stroke="#22d3ee" stroke-width="1"/>
+  </g>
+  <rect x="22" y="22" width="856" height="496" rx="8"
+        fill="none" stroke="#22d3ee" stroke-width="1" opacity="0.18"/>
+
+  <circle cx="44" cy="42" r="4.5" fill="#ff5f57"/>
+  <circle cx="60" cy="42" r="4.5" fill="#febc2e"/>
+  <circle cx="76" cy="42" r="4.5" fill="#28c840"/>
+  <text class="chrome" x="98" y="43">Octopuzzz/README.md</text>
+
+  <line x1="22" y1="62" x2="878" y2="62"
+        stroke="#22d3ee" stroke-width="1" opacity="0.2"/>
+  <line x1="332" y1="62" x2="332" y2="518"
+        stroke="#22d3ee" stroke-width="1" opacity="0.15"/>
+
+  <!-- left: visual map -->
+  <text class="panel" x="44" y="84">VISUAL.MAP</text>
+  <g clip-path="url(#artclip)">
+    <text class="art" x="44" y="115.87" opacity="0.45" textLength="151.4" lengthAdjust="spacing" xml:space="preserve">                                       .,::-:-::,</text>
+    <text class="art" x="44" y="121.80" opacity="0.46" textLength="166.9" lengthAdjust="spacing" xml:space="preserve">                                  .-==*~-:::---:-===~,</text>
+    <text class="art" x="44" y="127.73" opacity="0.47" textLength="176.1" lengthAdjust="spacing" xml:space="preserve">                                -==-:::::::::::::::::++~.</text>
+    <text class="art" x="44" y="133.66" opacity="0.49" textLength="179.2" lengthAdjust="spacing" xml:space="preserve">                              ~+-::::::::::::::::::::::-+~</text>
+    <text class="art" x="44" y="139.60" opacity="0.50" textLength="185.4" lengthAdjust="spacing" xml:space="preserve">                            -+-:::::::::--~----::::::::::-+-</text>
+    <text class="art" x="44" y="145.53" opacity="0.51" textLength="191.6" lengthAdjust="spacing" xml:space="preserve">                          ,+-::::::~+8MW#%%%%##WM&amp;+=-::::::==.</text>
+    <text class="art" x="44" y="151.46" opacity="0.52" textLength="191.6" lengthAdjust="spacing" xml:space="preserve">                          *::::::~8#@@@@@@@@@@@@@@@%WB=:::::-*</text>
+    <text class="art" x="44" y="157.40" opacity="0.54" textLength="194.7" lengthAdjust="spacing" xml:space="preserve">                         :=::::-*W%@@@@@@@@@@@@@@@@@@@#&amp;~::::~:</text>
+    <text class="art" x="44" y="163.33" opacity="0.55" textLength="194.7" lengthAdjust="spacing" xml:space="preserve">                         :~:::-&amp;W@@@@@@@@@@@@@@@@@@@@@@%W=:::--</text>
+    <text class="art" x="44" y="169.26" opacity="0.56" textLength="194.7" lengthAdjust="spacing" xml:space="preserve">                         ,=:::+W@@@@@%@@@@@@@@@@@@@@%@@@@&amp;-::~-</text>
+    <text class="art" x="44" y="175.19" opacity="0.58" textLength="194.7" lengthAdjust="spacing" xml:space="preserve">                          *::~W@@@@%%%%@@@@@@@@@@@@@%%@@@%~::+.</text>
+    <text class="art" x="44" y="181.13" opacity="0.59" textLength="191.6" lengthAdjust="spacing" xml:space="preserve">                          -+-*@@@WMMB888M#@@@@@#M8*&amp;BWMM%@8:~=</text>
+    <text class="art" x="44" y="187.06" opacity="0.60" textLength="188.5" lengthAdjust="spacing" xml:space="preserve">                           -&amp;8#WB#%W##WWM%M#%#WMBBBWW#%MM#W+8</text>
+    <text class="art" x="44" y="192.99" opacity="0.62" textLength="191.6" lengthAdjust="spacing" xml:space="preserve">                           8+B@@#%#&amp;&amp;*=8&amp;WBM%8WM**=8+&amp;W#%@#*M,</text>
+    <text class="art" x="44" y="198.92" opacity="0.63" textLength="188.5" lengthAdjust="spacing" xml:space="preserve">                           &amp;MM@@%%%#W#WWWWMW%MMWWW#%##%#@%#BB</text>
+    <text class="art" x="44" y="204.86" opacity="0.64" textLength="188.5" lengthAdjust="spacing" xml:space="preserve">                           -MB@@@#%%%###WBM#%WMB#%%%#%%%@#WM:</text>
+    <text class="art" x="44" y="210.79" opacity="0.65" textLength="185.4" lengthAdjust="spacing" xml:space="preserve">                            BB@%@%@@@@%MMM#%%#WMM#@@@@@%%#MB</text>
+    <text class="art" x="44" y="216.72" opacity="0.67" textLength="185.4" lengthAdjust="spacing" xml:space="preserve">                            -W#%@%@@@@@M#WW##WW#M%@@@@%%#WW=</text>
+    <text class="art" x="44" y="222.66" opacity="0.68" textLength="182.3" lengthAdjust="spacing" xml:space="preserve">                            .*W#%%@@@@@@########%@@@@@%#WM+</text>
+    <text class="art" x="44" y="228.59" opacity="0.69" textLength="179.2" lengthAdjust="spacing" xml:space="preserve">                              ~#%%@@@@@WM88BB88BM%@@@%%#W~</text>
+    <text class="art" x="44" y="234.52" opacity="0.71" textLength="176.1" lengthAdjust="spacing" xml:space="preserve">                               8%@@@@@%&amp;*&amp;8B88&amp;8B#@@@@%#8</text>
+    <text class="art" x="44" y="240.45" opacity="0.72" textLength="176.1" lengthAdjust="spacing" xml:space="preserve">                               ,W%%@@@@@@%#W#%%@@@@@%%WW,</text>
+    <text class="art" x="44" y="246.39" opacity="0.71" textLength="173.0" lengthAdjust="spacing" xml:space="preserve">                                &amp;###%@@@@@@@@@@@@@%#MMM*</text>
+    <text class="art" x="44" y="252.32" opacity="0.69" textLength="176.1" lengthAdjust="spacing" xml:space="preserve">                              -+&amp;%#WMM#%%@@@@@@%#MBBMWWB,</text>
+    <text class="art" x="44" y="258.25" opacity="0.68" textLength="179.2" lengthAdjust="spacing" xml:space="preserve">                             =~:B%%%%#WBBBBMMB8888MW###B+~</text>
+    <text class="art" x="44" y="264.19" opacity="0.67" textLength="185.4" lengthAdjust="spacing" xml:space="preserve">                           -+-:~%@@@@@@%#WMMMMWW##%%@@%&amp;:-+,</text>
+    <text class="art" x="44" y="270.12" opacity="0.65" textLength="191.6" lengthAdjust="spacing" xml:space="preserve">                        .-+~::::W@@@@@@@@@@@@@@@@@@@@@@~:::==.</text>
+    <text class="art" x="44" y="276.05" opacity="0.64" textLength="210.1" lengthAdjust="spacing" xml:space="preserve">                   .:~~=~-::::::=@@%@@@@@@%#%%@@%@@@@@&amp;::::::~=~--:.</text>
+    <text class="art" x="44" y="281.98" opacity="0.63" textLength="225.6" lengthAdjust="spacing" xml:space="preserve">               :~==~--:::::::::::+@@@@@@@@@@@@@@@%%%@*::::::::::::-~==~-:</text>
+    <text class="art" x="44" y="287.92" opacity="0.62" textLength="241.0" lengthAdjust="spacing" xml:space="preserve">          .-~==--::::::-::::::::::*%@@@@@@@@@@@@@@@%+:::::::::::::::::::-==~-.</text>
+    <text class="art" x="44" y="293.85" opacity="0.60" textLength="250.3" lengthAdjust="spacing" xml:space="preserve">       ,~==----::::::::::::::::::::=M@@@@@@@@@@@@@M~::::::::::::::::::::::::-==~,</text>
+    <text class="art" x="44" y="299.78" opacity="0.59" textLength="259.6" lengthAdjust="spacing" xml:space="preserve">    ,~=~-::::::-::::::::::::::::-::::~B%@@@@@@@@W+::::::::::::::::::::::::::::::~=~,</text>
+    <text class="art" x="44" y="305.72" opacity="0.58" textLength="265.7" lengthAdjust="spacing" xml:space="preserve">  :+=:::::::::---::::::::::::::::::::::-&amp;W@@@@W+::::::::::::::::::::::::::::::::::-==:</text>
+    <text class="art" x="44" y="311.65" opacity="0.56" textLength="268.8" lengthAdjust="spacing" xml:space="preserve"> ~=-:::::::---::::::::::::::::::::-:::::::~+&amp;=::::::::::::::::::::::::::::::::::::::-==</text>
+    <text class="art" x="44" y="317.58" opacity="0.55" textLength="271.9" lengthAdjust="spacing" xml:space="preserve">==:::::-::-----:-::-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::~+</text>
+    <text class="art" x="44" y="323.51" opacity="0.54" textLength="271.9" lengthAdjust="spacing" xml:space="preserve">-:::-:--::-------:---::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::-</text>
+    <text class="art" x="44" y="329.45" opacity="0.52" textLength="271.9" lengthAdjust="spacing" xml:space="preserve">-:---:--::--------::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::</text>
+    <text class="art" x="44" y="335.38" opacity="0.51" textLength="271.9" lengthAdjust="spacing" xml:space="preserve">-:----::::---:----:-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::-:::</text>
+    <text class="art" x="44" y="341.31" opacity="0.50" textLength="271.9" lengthAdjust="spacing" xml:space="preserve">-:::---:::---::-----:-:-:::::::::::::::::-::::--::::::::::::::::::::::::::::::::::::::::</text>
+    <text class="art" x="44" y="347.24" opacity="0.49" textLength="271.9" lengthAdjust="spacing" xml:space="preserve">::::---:::---:::--:-:::::::::::::::::::-:-::::--:::::::::::::::::::::::::::::::::::-::::</text>
+    <text class="art" x="44" y="353.18" opacity="0.47" textLength="271.9" lengthAdjust="spacing" xml:space="preserve">:::::--:::--::::---:::-:-:::::::::::::::--:::---::-:::::::::::::::::::::::::::::::-:::::</text>
+    <text class="art" x="44" y="359.11" opacity="0.46" textLength="271.9" lengthAdjust="spacing" xml:space="preserve">::::::::::-::::----:::::::::::::::::::::-:::::--:::::::::--::::-::::::::::::::::::::::::</text>
+    <text class="art" x="44" y="365.04" opacity="0.45" textLength="271.9" lengthAdjust="spacing" xml:space="preserve">::::::::::::::::---::-::::::::::::::::::-:-=::--:::::::::---::::::::::::::::::::::::::::</text>
+    <text class="art" x="44" y="370.98" opacity="0.43" textLength="271.9" lengthAdjust="spacing" xml:space="preserve">:::::::::::::::::-----::::::::::::::-:::---=----:::::::-:::::::-::::::::::::::::::::::::</text>
+    <rect id="beam" x="36" y="92" width="290" height="14" fill="url(#scan)"/>
+  </g>
+  <line x1="44" y1="395" x2="316"
+        y2="395" stroke="#22d3ee" stroke-width="1" opacity="0.2"/>
+
+    <text x="44" y="414.9" xml:space="preserve"><tspan class="mark">+ </tspan><tspan class="grp">ACHIEVEMENTS</tspan></text>
+    <text class="note" x="56.0" y="426.9">Pull Shark</text>
+    <text class="note" x="56.0" y="438.9">Pair Extraordinaire</text>
+    <text x="44" y="457.9" xml:space="preserve"><tspan class="mark">+ </tspan><tspan class="key">Repos </tspan><tspan class="dots">.....</tspan><tspan class="val"> 37</tspan></text>
+    <text x="44" y="469.9" xml:space="preserve"><tspan class="key">  </tspan><tspan class="key">Stars </tspan><tspan class="dots">.....</tspan><tspan class="val"> 8</tspan></text>
+
+  <!-- right: system info -->
+  <text class="panel" x="352" y="84">SYSTEM.INFO</text>
+  <text class="handle" x="352" y="108" filter="url(#softglow)">Octopuzzz</text>
+  <line x1="352" y1="122" x2="866" y2="122"
+        stroke="#22d3ee" stroke-width="1" opacity="0.35"/>
+
+    <text x="352" y="140.0" xml:space="preserve"><tspan class="mark">+ </tspan><tspan class="key">Subject </tspan><tspan class="dots">.........</tspan><tspan class="val"> Reagent Sandra</tspan></text>
+    <text x="352" y="152.0" xml:space="preserve"><tspan class="key">  </tspan><tspan class="key">Handle </tspan><tspan class="dots">..........</tspan><tspan class="val"> R21 / Octopuzzz</tspan></text>
+    <text x="352" y="164.0" xml:space="preserve"><tspan class="key">  </tspan><tspan class="key">Role </tspan><tspan class="dots">............</tspan><tspan class="val"> Software Developer · Data Streaming &amp; Backend</tspan></text>
+    <text x="352" y="176.0" xml:space="preserve"><tspan class="key">  </tspan><tspan class="key">Origin </tspan><tspan class="dots">..........</tspan><tspan class="val"> Jakarta, Indonesia</tspan></text>
+    <text x="352" y="188.0" xml:space="preserve"><tspan class="key">  </tspan><tspan class="key">Education </tspan><tspan class="dots">.......</tspan><tspan class="val"> B.CS — Bina Nusantara University · GPA 3.59</tspan></text>
+    <text x="352" y="200.0" xml:space="preserve"><tspan class="key">  </tspan><tspan class="key">Status </tspan><tspan class="dots">..........</tspan><tspan class="val"> Building ETL pipelines @ Bank Indonesia</tspan></text>
+    <text x="352" y="212.0" xml:space="preserve"><tspan class="key">  </tspan><tspan class="key">ToolChain </tspan><tspan class="dots">.......</tspan><tspan class="val"> VS Code, Git, Docker, Postman</tspan></text>
+    <text x="352" y="231.0" xml:space="preserve"><tspan class="mark">+ </tspan><tspan class="key">Core Lang </tspan><tspan class="dots">.......</tspan><tspan class="val"> Go, TypeScript, JavaScript, Java, Ruby</tspan></text>
+    <text x="352" y="243.0" xml:space="preserve"><tspan class="key">  </tspan><tspan class="key">Core Backend </tspan><tspan class="dots">....</tspan><tspan class="val"> Gin, Gorm, Spring Boot, Express.js, Node.js</tspan></text>
+    <text x="352" y="255.0" xml:space="preserve"><tspan class="key">  </tspan><tspan class="key">Core Frontend </tspan><tspan class="dots">...</tspan><tspan class="val"> Next.js, React.js, Vue.js, Flutter</tspan></text>
+    <text x="352" y="267.0" xml:space="preserve"><tspan class="key">  </tspan><tspan class="key">Core Data </tspan><tspan class="dots">.......</tspan><tspan class="val"> Confluent, Kafka, ElasticSearch, MongoDB</tspan></text>
+    <text x="352" y="279.0" xml:space="preserve"><tspan class="key">  </tspan><tspan class="key">Core Infra </tspan><tspan class="dots">......</tspan><tspan class="val"> Docker, Kubernetes, Jenkins, GCP, Nginx</tspan></text>
+    <text x="352" y="298.0" xml:space="preserve"><tspan class="mark">+ </tspan><tspan class="grp">Mission Log</tspan></text>
+    <text x="352" y="310.0" xml:space="preserve"><tspan class="key">  </tspan><tspan class="key">ACTIVE </tspan><tspan class="dots">..........</tspan><tspan class="val"> Confluent ETL streaming &amp; transformation — Bank Indonesia</tspan></text>
+    <text x="352" y="322.0" xml:space="preserve"><tspan class="key">  </tspan><tspan class="key">SHIPPED </tspan><tspan class="dots">.........</tspan><tspan class="val"> irennieart.com — Next.js studio site &amp; class booking</tspan></text>
+    <text x="352" y="334.0" xml:space="preserve"><tspan class="key">  </tspan><tspan class="key">PRIOR </tspan><tspan class="dots">...........</tspan><tspan class="val"> Microservices — BNI core system integration</tspan></text>
+    <text x="352" y="346.0" xml:space="preserve"><tspan class="key">  </tspan><tspan class="key">PRIOR </tspan><tspan class="dots">...........</tspan><tspan class="val"> Super Apps platform — Next.js + Google Maps API</tspan></text>
+    <text x="352" y="365.0" xml:space="preserve"><tspan class="mark">+ </tspan><tspan class="grp">Certifications</tspan></text>
+    <text x="352" y="377.0" xml:space="preserve"><tspan class="key">  </tspan><tspan class="key">IBM </tspan><tspan class="dots">.............</tspan><tspan class="val"> Certified App Connect Enterprise</tspan></text>
+    <text x="352" y="389.0" xml:space="preserve"><tspan class="key">  </tspan><tspan class="key">MongoDB </tspan><tspan class="dots">.........</tspan><tspan class="val"> SI Associate</tspan></text>
+    <text x="352" y="401.0" xml:space="preserve"><tspan class="key">  </tspan><tspan class="key">Kominfo </tspan><tspan class="dots">.........</tspan><tspan class="val"> Digitalent Bootcamp — Go · React · Ruby on Rails</tspan></text>
+    <text x="352" y="420.0" xml:space="preserve"><tspan class="mark">+ </tspan><tspan class="grp">Contact</tspan></text>
+    <text x="352" y="432.0" xml:space="preserve"><tspan class="key">  </tspan><tspan class="key">Grid LinkedIn </tspan><tspan class="dots">...</tspan><tspan class="val"> reagent-sandra</tspan></text>
+    <text x="352" y="444.0" xml:space="preserve"><tspan class="key">  </tspan><tspan class="key">Grid GitHub </tspan><tspan class="dots">.....</tspan><tspan class="val"> Octopuzzz</tspan></text>
+    <text x="352" y="456.0" xml:space="preserve"><tspan class="key">  </tspan><tspan class="key">Grid Mail </tspan><tspan class="dots">.......</tspan><tspan class="val"> ████████ classified</tspan></text>
+    <text x="352" y="468.0" xml:space="preserve"><tspan class="key">  </tspan><tspan class="key">Grid Portfolio </tspan><tspan class="dots">..</tspan><tspan class="val"> ████████ classified</tspan></text>
+    <text x="352" y="487.0" xml:space="preserve"><tspan class="mark">+ </tspan><tspan class="grp">Live Stats</tspan></text>
+    <text class="note" x="364.0" y="499.0">See live GitHub telemetry below ↓</text>
+
+  <rect id="cursor" x="568.0" y="494.0" width="6" height="11" fill="#22d3ee"/>
+</svg>
