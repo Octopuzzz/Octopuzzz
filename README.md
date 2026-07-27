@@ -1,5 +1,6 @@
+<h3 align="center">Reagent Sandra</h3>
 <p align="center">
-  <img src="./assets/terminal-card.svg" width="900" alt="System dossier — Reagent Sandra, software developer, Jakarta. Backend and data streaming.">
+  Software Developer · Data Streaming &amp; Backend · Jakarta, Indonesia
 </p>
 
 <p align="center">
@@ -12,6 +13,45 @@
   <img src="https://img.shields.io/badge/Based%20in-Jakarta%20·%20ID-0a0e1a?style=flat-square&logo=googlemaps&logoColor=22d3ee" alt="Based in Jakarta, Indonesia">
 </p>
 
+```ini
+; ══════════════════════════════════════════════════════════════
+;   Octopuzzz/README.md                              SYSTEM.INFO
+; ══════════════════════════════════════════════════════════════
+
+[SUBJECT]
+name        = Reagent Sandra
+handle      = R21 / Octopuzzz
+role        = Software Developer · Data Streaming & Backend
+origin      = Jakarta, Indonesia
+education   = B.CS — Bina Nusantara University · GPA 3.59
+status      = Building ETL pipelines @ Bank Indonesia
+toolchain   = VS Code, Git, Docker, Postman
+
+[STACK]
+lang        = Go, TypeScript, JavaScript, Java, Ruby
+backend     = Gin, Gorm, Spring Boot, Express.js, Node.js
+frontend    = Next.js, React.js, Vue.js, Flutter
+data        = Confluent, Kafka, ElasticSearch, MongoDB
+infra       = Docker, Kubernetes, Jenkins, GCP, Nginx
+
+[MISSION_LOG]
+active      = Confluent ETL streaming & transformation — Bank Indonesia
+shipped     = irennieart.com — Next.js studio site & class booking
+prior       = Microservices — BNI core system integration
+prior       = Super Apps platform — Next.js + Google Maps API
+
+[CERTIFICATIONS]
+ibm         = Certified App Connect Enterprise
+mongodb     = SI Associate
+kominfo     = Digitalent Bootcamp — Go · React · Ruby on Rails
+
+[CONTACT]
+linkedin    = reagent-sandra
+github      = Octopuzzz
+mail        = ████████ classified
+portfolio   = ████████ classified
+```
+
 ---
 
 ### `+ FEATURED`
@@ -19,15 +59,15 @@
 **[`⚡ teired-storage-confluent`](https://github.com/Octopuzzz/teired-storage-confluent)**
 Interactive documentation for Kafka tiered-storage architecture — animated flow diagrams and draggable nodes. Written as a technical reference for on-premise Confluent + MinIO deployments.
 
-**[`glammcom-seo`](https://github.com/Octopuzzz/glammcom-seo)**
-TypeScript SEO tooling.
+**[`🎨 irennieart.com`](https://www.irennieart.com)**
+Next.js site for an illustration studio — portfolio galleries, art-class booking, and a contact API route. Designed, built and shipped end to end.
 
 <p align="left">
   <a href="https://github.com/Octopuzzz/teired-storage-confluent">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=Octopuzzz&repo=teired-storage-confluent&theme=transparent&hide_border=true&title_color=22d3ee&text_color=e2e8f0&icon_color=fbbf24" alt="teired-storage-confluent">
   </a>
-  <a href="https://github.com/Octopuzzz/glammcom-seo">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Octopuzzz&repo=glammcom-seo&theme=transparent&hide_border=true&title_color=22d3ee&text_color=e2e8f0&icon_color=fbbf24" alt="glammcom-seo">
+  <a href="https://www.irennieart.com">
+    <img src="https://img.shields.io/badge/irennieart.com-live-0a0e1a?style=for-the-badge&logo=nextdotjs&logoColor=22d3ee&labelColor=0a0e1a" alt="irennieart.com — live site">
   </a>
 </p>
 
@@ -61,26 +101,5 @@ TypeScript SEO tooling.
 </p>
 
 <p>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Octopuzzz&hide_border=true&background=00000000&border=22d3ee&stroke=22d3ee&ring=22d3ee&fire=fbbf24&currStreakNum=e2e8f0&sideNums=e2e8f0&currStreakLabel=22d3ee&sideLabels=7dd3fc&dates=64748b" alt="Contribution streak">
-</p>
-
-<p>
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Octopuzzz&layout=compact&langs_count=8&hide_border=true&theme=transparent&title_color=22d3ee&text_color=e2e8f0" alt="Most used languages">
 </p>
-
----
-
-<sub>
-Dossier card is generated, not hand-edited — run <code>python3 tools/build_card.py</code> after changing
-<code>CONTENT</code> in that file. Portrait comes from <code>tools/ascii_portrait.py</code>.
-</sub>
-
-<!--
-  Regenerating the card:
-    python3 tools/ascii_portrait.py --image avatar.png > tools/portrait.json
-    python3 tools/build_card.py
-
-  GitHub caches images through its camo proxy, so an updated SVG can take a few
-  minutes to appear. Force it by hard-refreshing, or bump the ?v= number below:
-    <img src="./assets/terminal-card.svg?v=2" ...>
--->
