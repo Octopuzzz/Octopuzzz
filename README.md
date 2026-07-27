@@ -23,7 +23,7 @@ Interactive documentation for Kafka tiered-storage architecture — animated flo
 Next.js site for an illustration studio — portfolio galleries, art-class booking, and a contact API route. Designed, built and shipped end to end.
 
 <p align="left">
-  <a href="https://github.com/Octopuzzz/teired-storage-confluent">
+  <a href="http://aster-tech-indo.me/teired-storage-confluent/">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=Octopuzzz&repo=teired-storage-confluent&theme=transparent&hide_border=true&title_color=22d3ee&text_color=e2e8f0&icon_color=fbbf24" alt="teired-storage-confluent">
   </a>
   <a href="https://www.irennieart.com">
